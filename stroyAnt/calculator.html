@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Капитальный и косметический ремонт квартир и помещений</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header  class="header">
+         <div class="header__container">
+            <div id="body-header" class="header__body body-header"> 
+               <a class="logo__link" href="index.html">
+                  <img class="logo__image" src="../stroyAnt/source/logo.png" alt="StroyAnt">
+               </a>
+               <div class="header__burger">
+                  <span></span>
+               </div>
+               <nav class="header__menu">
+                     <ul class="header__list">
+                        <li ><a class="header__link" href="#">Услуги</a>
+                           <span class="menu__arrow arrow"></span>
+                            <ul id="submenu-list" class="submenu">
+                                 <li><a href="#" class="sub-menu__link">Ремонт</a></li>
+                                 <li><a href="#" class="sub-menu__link">Ремонт</a></li>
+                                 <li><a href="#" class="sub-menu__link">Ремонт</a></li>
+                                 <li><a href="#" class="sub-menu__link">Ремонт</a></li>
+                           </ul>  
+                        </li>
+                        <li><a class="header__link" href="company.html">Компания</a></li>
+                        <li><a class="header__link" href="#">Портфолио</a></li>
+                        <li><a class="header__link" href="#">Контакты</a></li>
+                        <li><a class="header__link" href="calculator.html">Калькулятор работ</a></li>
+                        <li><a class="header__link" href="#">Сотрудничество</a></li>
+                     </ul>   
+               </nav>
+               <div class="column-right">
+                  <div class="nav-address-wrap">
+                        <div class="contact calltouch-phone">
+                           <a class="phone" href="tel:+70001234567">+7 (000) 123-45-67</a>
+                        </div>
+                     <div class="item">
+                        <a href="mailto:info@stroy-ant.com">info@stroy-ant.com</a>
+                     </div>
+                     </div>
+                  </div>    
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__main-block main-block">
+            <div class="submit__page calc">
+               <div class="submit__title">Калькулятор работ</div>
+             <div class="submit__buttons">
+                   <a class="main-block__button main-block__button_white submit__button">Оставить заявку</a> 
+               </div> 
+            </div>
+         </div>
+         <div class="calc__container descktop _container">
+            <div class="calc__content">
+            <div class="calc__title">Выберете область работ:</div>
+            <div class="calc__body">
+               <div class="calc__buttons">
+                  <div id="btn-1" class="calc__btn">Подъезд</div>
+                  <div id="btn-2" class="calc__btn">Подъезд</div>
+                  <div id="btn-3" class="calc__btn">Подъезд</div>
+                  <div id="btn-4" class="calc__btn">Подъезд</div>
+                  <div id="btn-5" class="calc__btn">Подъезд</div>
+               </div>
+               <ul id="btn-1" class="calc__list cont_active">
+                   <li class="calc_list__item"> <h2 class="calc_list__item_title">Шпатлевка<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>  
+                    <div class="price_calc__table ">
+                        <div class="price_calc__table_row price_calc__table_row_head">
+                            <div class="price_calc__table_cell">&nbsp;</div>
+                            <div class="price_calc__table_cell">ед. изм.</div>
+                            <div class="price_calc__table_cell">цена</div>
+                            <div class="price_calc__table_cell">введите кол-во</div>
+                            <div class="price_calc__table_cell">сумма</div>
+                        </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 250 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3" ></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 448 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 300 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 594 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 249 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                        <div class="price_calc__table_sum">Сумма шпатлевка: &nbsp;<span>&ndash;</span></div>
+                     </div>
+                    </li>
+                    <li class="calc_list__item"> <h2 class="calc_list__item_title">Штукатурка<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>  
+                     <div class="price_calc__table">
+                         <div class="price_calc__table_row price_calc__table_row_head">
+                             <div class="price_calc__table_cell">&nbsp;</div>
+                             <div class="price_calc__table_cell">ед. изм.</div>
+                             <div class="price_calc__table_cell">цена</div>
+                             <div class="price_calc__table_cell">введите кол-во</div>
+                             <div class="price_calc__table_cell">сумма</div>
+                         </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 250 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 448 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 300 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 594 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 249 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                         <div class="price_calc__table_sum">Сумма штукатурка: &nbsp;<span>&ndash;</span></div>
+                      </div></li>
+                    <li class="calc_list__item"> <h2 class="calc_list__item_title">Фасад<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>  
+                     <div class="price_calc__table">
+                         <div class="price_calc__table_row price_calc__table_row_head">
+                             <div class="price_calc__table_cell">&nbsp;</div>
+                             <div class="price_calc__table_cell">ед. изм.</div>
+                             <div class="price_calc__table_cell">цена</div>
+                             <div class="price_calc__table_cell">введите кол-во</div>
+                             <div class="price_calc__table_cell">сумма</div>
+                         </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 250 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 448 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 300 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 594 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                             <div class="price_calc__table_row price_calc__table_row_body">
+                                 <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                 <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                 <div class="price_calc__table_cell">от 249 р.</div>
+                                 <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                 <div class="price_calc__table_cell"></div>
+                             </div>
+                                                         <div class="price_calc__table_sum">Сумма штукатурка: &nbsp;<span>&ndash;</span></div>
+                      </div></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Земельные работы</h2></li>
+                    <span class="price_calc__content_bottom_sum">Сумма:&nbsp;<span></span></span>
+                 </ul>
+                 <ul id="btn-2" class="calc__list  ">
+                  <li class="calc_list__item"> <h2 class="calc_list__item_title">Окна<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>
+                    <div class="price_calc__table">
+                        <div class="price_calc__table_row price_calc__table_row_head">
+                            <div class="price_calc__table_cell">&nbsp;</div>
+                            <div class="price_calc__table_cell">ед. изм.</div>
+                            <div class="price_calc__table_cell">цена</div>
+                            <div class="price_calc__table_cell">введите кол-во</div>
+                            <div class="price_calc__table_cell">сумма</div>
+                        </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 250 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 448 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 300 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 594 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 249 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                        <div class="price_calc__table_sum">Сумма шпатлевка: &nbsp;<span>&ndash;</span></div>
+                     </div>
+                    </li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <span class="price_calc__content_bottom_sum">Сумма:&nbsp;<span></span></span>
+                 </ul>
+                 <ul id="btn-3" class="calc__list  ">
+                  <li class="calc_list__item"> <h2 class="calc_list__item_title">Окна<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>
+                    <div class="price_calc__table">
+                        <div class="price_calc__table_row price_calc__table_row_head">
+                            <div class="price_calc__table_cell">&nbsp;</div>
+                            <div class="price_calc__table_cell">ед. изм.</div>
+                            <div class="price_calc__table_cell">цена</div>
+                            <div class="price_calc__table_cell">введите кол-во</div>
+                            <div class="price_calc__table_cell">сумма</div>
+                        </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 250 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 448 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 300 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 594 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 249 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                        <div class="price_calc__table_sum">Сумма шпатлевка: &nbsp;<span>&ndash;</span></div>
+                     </div>
+                    </li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <span class="price_calc__content_bottom_sum">Сумма:&nbsp;<span></span></span>
+                 </ul>
+                 <ul id="btn-4" class="calc__list  ">
+                  <li class="calc_list__item"> <h2 class="calc_list__item_title">Окна<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>
+                    <div class="price_calc__table">
+                        <div class="price_calc__table_row price_calc__table_row_head">
+                            <div class="price_calc__table_cell">&nbsp;</div>
+                            <div class="price_calc__table_cell">ед. изм.</div>
+                            <div class="price_calc__table_cell">цена</div>
+                            <div class="price_calc__table_cell">введите кол-во</div>
+                            <div class="price_calc__table_cell">сумма</div>
+                        </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 250 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 448 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 300 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 594 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                            <div class="price_calc__table_row price_calc__table_row_body">
+                                <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                <div class="price_calc__table_cell">от 249 р.</div>
+                                <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                <div class="price_calc__table_cell"></div>
+                            </div>
+                                                        <div class="price_calc__table_sum">Сумма шпатлевка: &nbsp;<span>&ndash;</span></div>
+                     </div>
+                    </li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <li class="calc_list__item"><h2 class="calc_list__item_title">Окна</h2></li>
+                    <span class="price_calc__content_bottom_sum">Сумма:&nbsp;<span></span></span>
+                 </ul>
+               <div class="calc_result__sum__list">Итого по данной работе: <div class="result__list"> </div> </div>
+            </div>
+            </div>
+         </div>
+         <div class="calc__container _container mobile">
+            <div class="calc__content">
+            <div class="calc__title_mobile">Выберете область работ:</div>
+            <div class="calc__body_mobile">
+               <ul class="calc__buttons_mobile">
+                  <div id="btn-1" class="calc__btn_mobile">Подъезд </div>
+                     <ul id="btn-1" class="calc__list cont_active">
+                        <li class="calc_list__item"> <h2 class="calc_list__item_title">Шпатлевка<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>  
+                         <div class="price_calc__table ">
+                             <div class="price_calc__table_row price_calc__table_row_head">
+                                 <div class="price_calc__table_cell">&nbsp;</div>
+                                 <div class="price_calc__table_cell">ед. изм.</div>
+                                 <div class="price_calc__table_cell">цена</div>
+                                 <div class="price_calc__table_cell">введите кол-во</div>
+                                 <div class="price_calc__table_cell">сумма</div>
+                             </div>
+                                                                 <div class="price_calc__table_row price_calc__table_row_body">
+                                     <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                     <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                     <div class="price_calc__table_cell">от 250 р.</div>
+                                     <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                     <div class="price_calc__table_cell"></div>
+                                 </div>
+                                                                 <div class="price_calc__table_row price_calc__table_row_body">
+                                     <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                     <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                     <div class="price_calc__table_cell">от 448 р.</div>
+                                     <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                     <div class="price_calc__table_cell"></div>
+                                 </div>
+                                                                 <div class="price_calc__table_row price_calc__table_row_body">
+                                     <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                     <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                     <div class="price_calc__table_cell">от 300 р.</div>
+                                     <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                     <div class="price_calc__table_cell"></div>
+                                 </div>
+                                                                 <div class="price_calc__table_row price_calc__table_row_body">
+                                     <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                     <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                     <div class="price_calc__table_cell">от 594 р.</div>
+                                     <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                     <div class="price_calc__table_cell"></div>
+                                 </div>
+                                                                 <div class="price_calc__table_row price_calc__table_row_body">
+                                     <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                     <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                     <div class="price_calc__table_cell">от 249 р.</div>
+                                     <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                     <div class="price_calc__table_cell"></div>
+                                 </div>
+                                                             <div class="price_calc__table_sum">Сумма шпатлевка: &nbsp;<span>&ndash;</span></div>
+                           
+                         </li>
+                         <li class="calc_list__item calc_list__item_mobile "> <h2 class="calc_list__item_title">Штукатурка<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>  
+                          <div class="price_calc__table">
+                              <div class="price_calc__table_row price_calc__table_row_head">
+                                  <div class="price_calc__table_cell">&nbsp;</div>
+                                  <div class="price_calc__table_cell">ед. изм.</div>
+                                  <div class="price_calc__table_cell">цена</div>
+                                  <div class="price_calc__table_cell">введите кол-во</div>
+                                  <div class="price_calc__table_cell">сумма</div>
+                              </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 250 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 448 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 300 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 594 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 249 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                              <div class="price_calc__table_sum">Сумма штукатурка: &nbsp;<span>&ndash;</span></div>
+                           </div></li>
+                         <li class="calc_list__item "> <h2 class="calc_list__item_title">Фасад<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>  
+                          <div class="price_calc__table">
+                              <div class="price_calc__table_row price_calc__table_row_head">
+                                  <div class="price_calc__table_cell">&nbsp;</div>
+                                  <div class="price_calc__table_cell">ед. изм.</div>
+                                  <div class="price_calc__table_cell">цена</div>
+                                  <div class="price_calc__table_cell">введите кол-во</div>
+                                  <div class="price_calc__table_cell">сумма</div>
+                              </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 250 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 448 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 300 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 594 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                                  <div class="price_calc__table_row price_calc__table_row_body">
+                                      <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                      <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                      <div class="price_calc__table_cell">от 249 р.</div>
+                                      <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                      <div class="price_calc__table_cell"></div>
+                                  </div>
+                                                              <div class="price_calc__table_sum">Сумма штукатурка: &nbsp;<span>&ndash;</span></div>
+                           </div></li>
+                         <li class="calc_list__item "><h2 class="calc_list__item_title">Земельные работы</h2></li>
+                         <span class="price_calc__content_bottom_sum">Сумма:&nbsp;<span></span></span>
+                      </ul>
+                   
+                  <div id="btn-2" class="calc__btn_mobile">Подъезд
+                     <ul id="btn-2" class="calc__list  ">
+                     <li class="calc_list__item_mobile"> <h2 class="calc_list__item_title">Окна<span class="price_calc__content_header_sum">Сумма:&nbsp;<span></span></span></h2>
+                       <div class="price_calc__table">
+                           <div class="price_calc__table_row price_calc__table_row_head">
+                               <div class="price_calc__table_cell">&nbsp;</div>
+                               <div class="price_calc__table_cell">ед. изм.</div>
+                               <div class="price_calc__table_cell">цена</div>
+                               <div class="price_calc__table_cell">введите кол-во</div>
+                               <div class="price_calc__table_cell">сумма</div>
+                           </div>
+                                                               <div class="price_calc__table_row price_calc__table_row_body">
+                                   <div class="price_calc__table_cell">Шпатлевка потолка в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                   <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                   <div class="price_calc__table_cell">от 250 р.</div>
+                                   <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                   <div class="price_calc__table_cell"></div>
+                               </div>
+                                                               <div class="price_calc__table_row price_calc__table_row_body">
+                                   <div class="price_calc__table_cell">Шпатлевка потолка в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                   <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                   <div class="price_calc__table_cell">от 448 р.</div>
+                                   <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                   <div class="price_calc__table_cell"></div>
+                               </div>
+                                                               <div class="price_calc__table_row price_calc__table_row_body">
+                                   <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 1 слой <span>(м<sup>2</sup>)</span></div>
+                                   <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                   <div class="price_calc__table_cell">от 300 р.</div>
+                                   <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                   <div class="price_calc__table_cell"></div>
+                               </div>
+                                                               <div class="price_calc__table_row price_calc__table_row_body">
+                                   <div class="price_calc__table_cell">Шпатлевка потолка под покраску в 2 слоя <span>(м<sup>2</sup>)</span></div>
+                                   <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                   <div class="price_calc__table_cell">от 594 р.</div>
+                                   <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                   <div class="price_calc__table_cell"></div>
+                               </div>
+                                                               <div class="price_calc__table_row price_calc__table_row_body">
+                                   <div class="price_calc__table_cell">Поклейка малярной сетки (стеклохолст) <span>(м<sup>2</sup>)</span></div>
+                                   <div class="price_calc__table_cell">м<sup>2</sup></div>
+                                   <div class="price_calc__table_cell">от 249 р.</div>
+                                   <div class="price_calc__table_cell"><input class="price_calc__table_cell_input" type="text" placeholder="0" maxlength="3"></div>
+                                   <div class="price_calc__table_cell"></div>
+                               </div>
+                                                           <div class="price_calc__table_sum">Сумма шпатлевка: &nbsp;<span>&ndash;</span></div>
+                        </div>
+                       </li>
+                       <li class="calc_list__item_mobile"><h2 class="calc_list__item_title">Окна</h2></li>
+                       <li class="calc_list__item_mobile"><h2 class="calc_list__item_title">Окна</h2></li>
+                       <li class="calc_list__item_mobile"><h2 class="calc_list__item_title">Окна</h2></li>
+                       <span class="price_calc__content_bottom_sum">Сумма:&nbsp;<span></span></span>
+                    </ul>
+                  </div>
+                   <div id="btn-3" class="calc__btn_mobile">Подъезд</div>
+                  <div id="btn-4" class="calc__btn_mobile">Подъезд</div>
+                  <div id="btn-5" class="calc__btn_mobile">Подъезд</div> 
+               </ul>
+                
+               <div class="calc_result__sum__list">Итого по данной работе: <div class="result__list"> </div> </div>
+            </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__top">
+            <div class="footer__main _container">
+               <div class="footer__row">
+                  <div class="footer__column">
+                     <div class="footer__label">StroyAnt</div>
+                     <nav class="footer__menu menu-footer">
+                        <ul class="menu-footer__list">
+                           <li class="menu-footer__item"><a href="" class="menu-footer__link">Главная</a></li>
+                           <li class="menu-footer__item"><a href="" class="menu-footer__link">О нас</a></li>
+                           <li class="menu-footer__item"><a href="" class="menu-footer__link">Портфолио</a></li>
+                           <li class="menu-footer__item"> <a href="" class="menu-footer__link">Отзывы</a></li>
+                           <li class="menu-footer__item"> <a href="" class="menu-footer__link">Оставить заявку</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__bottom">
+            <div class="footer__container _container">
+               <div class="footer__social social">
+                  <a href="" class="social__item"><img src="../stroyAnt/source/footer/01.svg" alt="social"></a>
+                  <a href="https://www.pinterest.ru/" class="social__item"><img
+                        src="../stroyAnt/source/footer/02.svg" alt="social"></a>
+                  <a href="http://www.facebook.com.vn/" class="social__item"><img
+                        src="../stroyAnt/source/footer/03.svg" alt="social"></a>
+                  <a href="https://vk.com/feed" class="social__item"><img src="../stroyAnt/source/footer/04.svg"
+                        alt="social"> </a>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+  
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+   <script src="../stroyAnt/js/script.js"></script>
+</body>
+
+</html>
